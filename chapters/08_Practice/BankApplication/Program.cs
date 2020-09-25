@@ -40,7 +40,7 @@ namespace BankApplication
                             break;
                         case 6:
                             alive = false;
-                            continue;
+                            break;
                     }
                     bank.CalculatePercentage();
                 }
